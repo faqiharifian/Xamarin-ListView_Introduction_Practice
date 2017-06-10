@@ -14,7 +14,8 @@ namespace Modul3_Practice
 			InitializeComponent();
 
             //MainPage = new Modul3_Practice.MainPage();
-            MainPage = new Modul3_Practice.BindingListString();
+            //MainPage = new Modul3_Practice.BindingListString();
+            MainPage = new Modul3_Practice.BindingToDataModel();
         }
 
 		protected override void OnStart ()
